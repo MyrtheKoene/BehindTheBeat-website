@@ -1,0 +1,158 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #bd2c75;
+    color: #fff;
+    border-radius: 1em;
+}
+
+header .logo img {
+    height: 5vw;
+    max-height: 13em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 4vw;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3em;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+h3{
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1em;
+}
+
+.inleiding {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    background-color: #ff69b4;
+    border-radius: 10vw;
+    color: #fff;
+    height: 8em;
+}
+
+
+.episode-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+}
+
+.episode {
+    background-color: #ff69b4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1vw;
+    width: 40em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.episode img {
+    border-radius: 50%;
+    width: 8vw;
+    height: auto;
+}
+
+footer {
+    background-color: #ff69b4;
+    height: 7em;
+    color: #fff;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+}
+
+.member {
+    font-size: 1.1em;
+    background-color: #ff69b4;
+    border-radius: 1vw;
+    width: 45em;
+    text-align: center;
+}
+
+
+.member img {
+    border-radius: 50%;
+    width: 8vw;
+    max-width: 100px;
+    height: auto;
+}
+
+.formulier {
+    display: flex;
+    justify-content: center;
+}
+
+.teaservideo {
+    display: flex;
+    justify-content: center;
+}
+
+.play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    font-size: 1.1em;
+}
+
+.highlight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    background-color: #ff69b4;
+    border-radius: 10vw;
+    color: #fff;
+}
+
+.merchandise-list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
